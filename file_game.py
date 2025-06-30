@@ -30,7 +30,7 @@ def number_guessing_game():
 
         play_again = input("Do you want to play again? (yes/no): ").strip().lower()
         if play_again not in ("yes", "y"):
-            print("Thank you for playing!")
+            print("Thank you for playing the game!")
             break
 
 
